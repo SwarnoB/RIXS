@@ -84,5 +84,5 @@ def plot_three_sets(x, y11, y12, y21, y22, y31, y32, title=None, xlabel="X-axis"
     #plt.subplots_adjust(hspace=5.0)
 
     plt.tight_layout(rect=[0, 0.03, 1, 0.95])
-    #plt.show()
-    plt.savefig('water_RIXS_unnormalized.png', transparent=True, dpi=300)
+    plt.show()
+    #plt.savefig('water_RIXS_unnormalized.png', transparent=True, dpi=300)
